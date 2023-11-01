@@ -1,6 +1,6 @@
 name: native_camera
 description: Straightforward setup for the camera package, if you'd rather not deal with all the design work.
-version: 0.0.1
+version: 0.0.2
 repository: https://github.com/thecoder-co/native-camera
 
 environment:
@@ -22,13 +22,7 @@ dev_dependencies:
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 # The following section is specific to Flutter packages.
-flutter:
-  plugin:
-    platforms:
-      android:
-        pluginClass: NativeCamera
-      ios:
-        pluginClass: NativeCamera
+flutter: null
 # To add assets to your package, add an assets section, like this:
 # assets:
 #   - images/a_dot_burr.jpeg
