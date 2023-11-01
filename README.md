@@ -15,24 +15,30 @@ Straightforward setup for the [camera](https://pub.dev/packages/camera) package,
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+Pick image or video with hardware camera or gallery and specify options.
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+See setup for [camera](https://pub.dev/packages/camera) and [image_picker](https://pub.dev/packages/image_picker) to continue
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+Import package
 
 ```dart
-const like = 'sample';
+import 'package:native_camera/native_camera.dart';
 ```
 
-## Additional information
+```dart
+final CameraFile? picked = await NativeCamera.launch(
+  context,
+  allowGallery: true,
+  cameraMode: CameraMode.both,
+);
+```
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+## Images
+
+![Package implementation](https://github.com/thecoder-co/native-camera/blob/main/photo_2023-11-01%2010.00.00.jpeg?raw=true)
+
+![Package implementation](https://github.com/thecoder-co/native-camera/blob/main/photo_2023-11-01%2010.00.13.jpeg?raw=true)
