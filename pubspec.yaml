@@ -1,5 +1,5 @@
 name: native_camera
-description: A new Flutter package project.
+description: Straightforward setup for the camera package, if you'd rather not deal with all the design work.
 version: 0.0.1
 repository: https://github.com/thecoder-co/native-camera
 
